@@ -1,0 +1,10 @@
+[package]
+name = "Practice-win-projects"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+windows-sys = { version = "0.59", features = [
+    "Win32_System_Diagnostics_ToolHelp",
+    "Win32_Foundation"
+] }
